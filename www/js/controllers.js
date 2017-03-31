@@ -63,9 +63,9 @@ angular.module('starter.controllers',['ionic', 'starter.controllers'])
     $scope.salut = "COUCOU";
   })
 
-  .controller('InfosCtrl', function ($scope) {
-    $scope.Infos = {};
-  })
+//  .controller('InfosCtrl', function ($scope) {
+//    $scope.Infos = {};
+//  })
 
 
   .controller('PlaylistsCtrl', function ($scope) {
