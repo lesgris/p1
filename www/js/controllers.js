@@ -41,6 +41,11 @@ angular.module('starter.controllers', [])
   };
 })
 
+.controller('InfosCtrl', function($scope) {
+  $scope.Infos={};
+})
+
+
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
     { title: 'Reggae', id: 1 },
@@ -51,6 +56,7 @@ angular.module('starter.controllers', [])
     { title: 'Cowbell', id: 6 }
   ];
 })
+
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
