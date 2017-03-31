@@ -3,7 +3,18 @@
  $routescope.prénom = user.prénom -->
 <ion-view view-title="Infos">
     <ion-content>
-<p>WELELE</p>
+        
+        <div class="list" ng-repeat="Repa in repas">
+            <p>{{Repa.Nom}}</p>
+           <label class="item item-input">
+           <input type="text" placeholder="Glucides rapides" ng-value="Repa.gl">
+           </label>
+
+           <label class="item item-input">
+           <input type="text" placeholder="Glucides lents" ng-value="Repa.gr">
+           </label>
+            
+        </div>
 
 
 

@@ -41,8 +41,10 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('InfosCtrl', function($scope) {
-  $scope.Infos={};
+.controller('InfosCtrl', function($scope, $routeScope) {
+  $scope.prenom="Bob";
+    
+    $scope.repas=$routeScope.data.Users[$routeScope.actualUser].repas;
 })
 
 
