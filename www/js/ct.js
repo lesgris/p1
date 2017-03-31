@@ -1,4 +1,4 @@
-angular.module('starter.controllers', []).controller('PlaylistsCtrl', function ($scope) {
+angular.module('starter.controllers', []).controller('PlaylistsCtrl', function ($rootScope, $scope) {
     $scope.playlists = [
         { title: 'Reggae', id: 1 },
         { title: 'Chill', id: 2 },
@@ -7,4 +7,6 @@ angular.module('starter.controllers', []).controller('PlaylistsCtrl', function (
         { title: 'Rap', id: 5 },
         { title: 'Cowbell', id: 6 }
     ];
+    // $scope.test = $rootScope.test.Users[0];
+    $scope.test = 1;
 });
