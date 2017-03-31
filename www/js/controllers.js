@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers',['ionic', 'starter.controllers'])
 
   .run(function ($rootScope, $http) {
     //$rootScope.test = require('./data.json');
@@ -78,10 +78,6 @@ angular.module('starter.controllers', [])
       { title: 'Cowbell', id: 6 }
     ];
   })
-  .controller('UsersCtrl', function ($scope, $stateParams) {
-    $scope.salut = "COUCOU";
-  })
-
 
   .controller('PlaylistCtrl', function ($scope, $stateParams) {
   });
