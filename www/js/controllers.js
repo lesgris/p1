@@ -63,10 +63,6 @@ angular.module('starter.controllers', [])
     $scope.salut = "COUCOU";
   })
 
-  .controller('InfosCtrl', function ($scope) {
-    $scope.Infos = {};
-  })
-
 
   .controller('PlaylistsCtrl', function ($scope) {
     $scope.playlists = [
@@ -78,56 +74,16 @@ angular.module('starter.controllers', [])
       { title: 'Cowbell', id: 6 }
     ];
   })
-  .controller('UsersCtrl', function ($scope, $stateParams) {
-    $scope.salut = "COUCOU";
-  })
+
 
 
   .controller('PlaylistCtrl', function ($scope, $stateParams) {
   });
 
 
-  // Triggered in the login modal to close it
-  $scope.closeLogin = function() {
-    $scope.modal.hide();
-  };
-
-  // Open the login modal
-  $scope.login = function() {
-    $scope.modal.show();
-  };
-
-  // Perform the login action when the user submits the login form
-  $scope.doLogin = function() {
-    console.log('Doing login', $scope.loginData);
-
-    // Simulate a login delay. Remove this and replace with your login
-    // code if using a login system
-    $timeout(function() {
-      $scope.closeLogin();
-    }, 1000);
-  };
-})
 
 .controller('InfosCtrl', function($scope, $routeScope) {
   $scope.prenom="Bob";
     
     $scope.repas=$routeScope.data.Users[$routeScope.actualUser].repas;
-})
-
-
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-})
-
-
-.controller('PlaylistCtrl', function($scope, $stateParams) {
 });
-
