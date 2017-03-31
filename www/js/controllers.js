@@ -39,6 +39,8 @@ angular.module('starter.controllers', [])
       $scope.closeLogin();
     }, 1000);
   };
+
+  $scope.salut = "COUCOU";
 })
 
 .controller('PlaylistsCtrl', function($scope) {
@@ -50,6 +52,9 @@ angular.module('starter.controllers', [])
     { title: 'Rap', id: 5 },
     { title: 'Cowbell', id: 6 }
   ];
+})
+.controller('UsersCtrl', function($scope, $stateParams) {
+  $scope.salut = "COUCOU";
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
