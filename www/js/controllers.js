@@ -63,6 +63,10 @@ angular.module('starter.controllers', [])
     $scope.salut = "COUCOU";
   })
 
+  .controller('InfosCtrl', function ($scope) {
+    $scope.Infos = {};
+  })
+
 
   .controller('PlaylistsCtrl', function ($scope) {
     $scope.playlists = [
@@ -74,16 +78,10 @@ angular.module('starter.controllers', [])
       { title: 'Cowbell', id: 6 }
     ];
   })
-
+  .controller('UsersCtrl', function ($scope, $stateParams) {
+    $scope.salut = "COUCOU";
+  })
 
 
   .controller('PlaylistCtrl', function ($scope, $stateParams) {
   });
-
-
-
-.controller('InfosCtrl', function($scope, $routeScope) {
-  $scope.prenom="Bob";
-    
-    $scope.repas=$routeScope.data.Users[$routeScope.actualUser].repas;
-});
