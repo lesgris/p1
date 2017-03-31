@@ -39,6 +39,16 @@ angular.module('starter.controllers', [])
       $scope.modal.show();
     };
 
+    // Triggered in the login modal to close it
+    $scope.closeLogin = function () {
+      $scope.modal.hide();
+    };
+
+    // Open the login modal
+    $scope.login = function () {
+      $scope.modal.show();
+    };
+
     // Perform the login action when the user submits the login form
     $scope.doLogin = function () {
       console.log('Doing login', $scope.loginData);
@@ -49,6 +59,8 @@ angular.module('starter.controllers', [])
         $scope.closeLogin();
       }, 1000);
     };
+
+    $scope.salut = "COUCOU";
   })
 
   .controller('InfosCtrl', function ($scope) {
@@ -66,7 +78,11 @@ angular.module('starter.controllers', [])
       { title: 'Cowbell', id: 6 }
     ];
   })
+  .controller('UsersCtrl', function ($scope, $stateParams) {
+    $scope.salut = "COUCOU";
+  })
 
 
   .controller('PlaylistCtrl', function ($scope, $stateParams) {
   });
+
