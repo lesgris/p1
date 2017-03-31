@@ -43,6 +43,11 @@ angular.module('starter.controllers', [])
   $scope.salut = "COUCOU";
 })
 
+.controller('InfosCtrl', function($scope) {
+  $scope.Infos={};
+})
+
+
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
     { title: 'Reggae', id: 1 },
@@ -56,6 +61,7 @@ angular.module('starter.controllers', [])
 .controller('UsersCtrl', function($scope, $stateParams) {
   $scope.salut = "COUCOU";
 })
+
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
