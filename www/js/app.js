@@ -88,6 +88,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      .state('app.bonAppetit', {
+        url: '/bonAppetit',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/bonAppetit.html',
+            controller: 'BonAppetitCtrl'
+          }
+        }
+      })
+
       .state('app.historique', {
         url: '/historique',
         views: {
