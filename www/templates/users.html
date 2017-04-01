@@ -1,5 +1,13 @@
 <ion-view view-title="Users">
   <ion-content>
     <h1>C'est qui ??</h1>
+    <ion-list>
+      <ion-item ng-repeat="user in users" href="#/app/Infos">
+        {{user.prenom}}
+      </ion-item>
+    </ion-list>
+    <label class="item">
+      <button class="button button-block button-royal" type="submit">Je suis nouveau !</button>
+    </label>
   </ion-content>
 </ion-view>

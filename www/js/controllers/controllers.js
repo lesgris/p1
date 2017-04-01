@@ -6,7 +6,7 @@ angular.module('starter.controllers',['ionic', 'starter.controllers'])
     $http.get('./data.json')
       .success(function (data) {
         // The json data will now be in rootscope.
-        $rootScope.test = data;
+        $rootScope.data = data;
       });
   })
 
@@ -59,8 +59,6 @@ angular.module('starter.controllers',['ionic', 'starter.controllers'])
         $scope.closeLogin();
       }, 1000);
     };
-
-    $scope.salut = "COUCOU";
   })
 
 //  .controller('InfosCtrl', function ($scope) {
