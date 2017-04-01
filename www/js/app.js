@@ -79,6 +79,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+  .state('app.register', {
+    url: '/register',
+    views: {
+      'register': {
+        templateUrl: 'templates/register.html',
+        controller: 'registerCtrl'
+      }
+    }
+  })
 
   .state('app.users', {
     url: '/users',
