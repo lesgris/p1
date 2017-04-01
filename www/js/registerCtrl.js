@@ -1,5 +1,5 @@
 angular.module('starter.controllers')
 
-.controller('registerCtrl', function($scope) {
+    .controller('RegisterCtrl', function ($scope) {
 
-});
+    });
