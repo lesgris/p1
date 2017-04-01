@@ -88,6 +88,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      .state('app.historique', {
+        url: '/historique',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/historique.html',
+            controller: 'HistoriqueCtrl'
+          }
+        }
+      })
+
       .state('app.users', {
         url: '/users',
         views: {

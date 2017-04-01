@@ -1,49 +1,49 @@
 {
-	"Users": [
+	"users": [
 		{
-			"ID": "",
-			"Prenom": "Louis",
-			"PetitDejeuner": {
-				"GlucideLent": "",
-				"GlucideRapide": ""
+			"id": "1",
+			"prenom": "Louis",
+			"petitDejeuner": {
+				"glucideLent": "",
+				"glucideRapide": ""
 			},
-			"Dejeuner": {
-				"GlucideLent": "",
-				"GlucideRapide": ""
+			"dejeuner": {
+				"glucideLent": "",
+				"glucideRapide": ""
 			},
-			"Gouter": {
-				"GlucideLent": "",
-				"GlucideRapide": ""
+			"gouter": {
+				"glucideLent": "",
+				"glucideRapide": ""
 			},
-			"Diner": {
-				"GlucideLent": "",
-				"GlucideRapide": ""
+			"diner": {
+				"glucideLent": "",
+				"glucideRapide": ""
 			},
-			"AvatarID": "",
-			"PersoID": ""
+			"avatarId": "",
+			"persoId": ""
 		}
 	],
-	"Restos": [
+	"restos": [
 		{
-			"ID": "",
-			"Nom": "",
-			"logolink": ""
+			"id": "",
+			"nom": "",
+			"logoLink": ""
 		}
 	],
 	"plateaux": [
 		{
-			"ID": "",
-			"UserID": "",
-			"itemID": "",
+			"id": "",
+			"userId": "",
+			"itemId": "BIGBURGER",
 			"date": "",
-			"tauxglucide": ""
+			"tauxGlucide": "500000000g"
 		}
 	],
 	"persos": [
 		{
-			"ID": "",
+			"id": "",
 			"nom": "",
-			"photolink": "",
+			"photoLink": "",
 			"dialogue": [
 				{
 					"dialogue1": "",
@@ -54,12 +54,12 @@
 	],
 	"items": [
 		{
-			"ID": "",
+			"id": "",
 			"nom": "",
 			"type": "",
-			"glucidelent": "",
-			"gluciderapide": "",
-			"restoID": "",
+			"glucideLent": "",
+			"glucideRapide": "",
+			"restoId": "",
 			"photoLink": ""
 		}
 	]
