@@ -120,13 +120,31 @@
 	],
 	"items": [
 		{
-			"id": "",
-			"nom": "",
-			"type": "",
+			"id": "1",
+			"nom": "BigMac",
+			"type": "1",
 			"glucideLent": "",
 			"glucideRapide": "",
-			"restoId": "",
-			"photoLink": ""
+			"restoId": "1",
+			"photoLink": "./img/items/bigmac.png"
+		},
+		{
+			"id": "2",
+			"nom": "BigMac2",
+			"type": "1",
+			"glucideLent": "",
+			"glucideRapide": "",
+			"restoId": "1",
+			"photoLink": "./img/items/bigmac.png"
+		},
+		{
+			"id": "3",
+			"nom": "BigMac3",
+			"type": "1",
+			"glucideLent": "",
+			"glucideRapide": "",
+			"restoId": "1",
+			"photoLink": "./img/items/bigmac.png"
 		}
 	]
 }
