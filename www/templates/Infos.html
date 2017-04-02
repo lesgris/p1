@@ -1,22 +1,20 @@
-<!-- Chercher ng-repeat !
- $routescope.repas = user.repas
- $routescope.prénom = user.prénom -->
+
 <ion-view view-title="Infos">
     <ion-content>
-        <p>WELELE</p>
-        <div class="list" ng-repeat="Repa in repas">
-            <p>{{Repa.Nom}}</p>
-           <label class="item item-input">
-           <input type="text" placeholder="Glucides rapides" ng-value="Repa.gl">
-           </label>
+        <h2>Entre donc ces informations !</h2>
+        <p>De quelle quantité de glucides as-tu besoin, selon les repas ?</p>
+        <ion-item ng-repeat="user in users" href="#/app/Infos">
+        <ion-list>
+            <p>{{user.prenom}}</p>
+           <ion-label class="item item-input">
+           <input type="number" placeholder="Glucides rapides" ng-value="users.petitDejeuner.glucideRapide">
+           </ion-label>
 
-           <label class="item item-input">
-           <input type="text" placeholder="Glucides lents" ng-value="Repa.gr">
-           </label>
+           <ion-label class="item item-input">
+           <input type="number" placeholder="Glucides lents" ng-value="users.petitDejeuner.glucideLent">
+           </ion-label>
             
-        </div>
-
-
-
+        </ion-list>
+        </ion-item>
     </ion-content>
 </ion-view>
