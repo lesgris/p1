@@ -1,9 +1,10 @@
   <ion-view view-title="Repas">
   <ion-content>
     <h1 class="text-center">Quel type de repas?</h1>
+      <p>{{protocole}}</p>
     <ion-list>
     	<ion-item ng-repeat="(key,protocole) in user.protocole">
-    		<p>{{key}}</p>
+    		
     	</ion-item>
     </ion-list>
     <form action="" method="">
