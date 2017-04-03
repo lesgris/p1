@@ -3,7 +3,6 @@
     <ion-content>
         <h2>Entre donc ces informations !</h2>
         <h3>Comment t'appelles-tu ?</h3>
-        -{{JSON.stringify(protocoles)}}
         <ion-list>
         <ion-item>
             <input type="text" placeholder="Prénom">
@@ -11,7 +10,7 @@
         </ion-list>
         
         <p>De quelle quantité de glucides as-tu besoin, selon les repas ?</p>
-        <ion-item ng-repeat="(key,protocoles) in users" href="#/app/Infos">
+        <ion-item ng-repeat="(key,protocole) in protocoles" href="#/app/Infos">
         <ion-list>
             <p>{{key}}</p>
            <ion-label class="item item-input">
