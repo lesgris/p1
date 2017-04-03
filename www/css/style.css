@@ -1,7 +1,7 @@
 /* Empty. Add your own CSS if you like */
 footer{
 	position:relative;
-	bottom: :0px;
+	bottom: :0;
 
 }
 h1
@@ -9,5 +9,5 @@ h1
 	text-align: center;
 }
 img#logo{
-	position:fixed;
+	position:relative;
 }
