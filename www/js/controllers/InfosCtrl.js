@@ -1,9 +1,10 @@
-angular.module('starter.controllers').controller('infosCtrl', function($scope, $stateParams, $rootScope) {
-    $scope.Infos={};
-    if (!$rootScope.userId || $rootScope.userId === -1) {
-        console.log("WELELE");
-        $scope.user = {
-			"id": ""+$rootScope.data.users.length,
+
+angular.module('starter.controllers').controller('infosCtrl', function ($scope, $stateParams, $rootScope) {
+	$scope.Infos = {};
+	if (!$rootScope.userId || $rootScope.userId === -1) {
+		console.log("WELELE");
+		$scope.user = {
+			"id": "" + $rootScope.data.users.length,
 			"prenom": "",
 			"protocole": {
 				"Petit Dejeuner": {
@@ -26,10 +27,10 @@ angular.module('starter.controllers').controller('infosCtrl', function($scope, $
 			"avatarId": "",
 			"persoId": ""
 		};
-    }
-    else {
-        $scope.user = users.find(function (userId) { return users.userId === users.userId });
-    }
+	}
+	else {
+		$scope.user = users.find(function (userId) { return users.userId === users.userId });
+	}
 
 });
 

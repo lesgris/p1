@@ -132,8 +132,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           'menuContent': {
             templateUrl: 'templates/repas.html',
             controller: 'RepasCtrl'
-         }
-       }
+          }
+        }
       })
       ;
     // if none of the above states are matched, use this as the fallback
