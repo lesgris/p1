@@ -28,16 +28,31 @@
         </div>
 
 
-
-
-
-
-
     </ion-content>
-
-    <div class="tabs tabs-icon-top">
+    <!--
+    <div class="tabsPlate">
         <a class="tab-item" ng-repeat="item in plate" ng-click="deleteItem(item)">
             <i class="icon ion-home"></i> {{item.nom}}
-        </a>
+        </a>-->
+    <!--
+    <div ng-repeat="item in plate" ng-click="deleteItem(item)">
+        <i class="icon ion-home"></i> 
+        {{item.nom}}
     </div>
+
+    </div>-->
+
+    <ion-footer-bar align-title="left" class="bar-assertive">
+        <!--<a class="" ng-repeat="item in plate" ng-click="deleteItem(item)">
+            <i class="icon ion-home"></i> {{item.nom}}
+        </a>-->
+
+        <div class="" ng-repeat="item in plate" ng-click="deleteItem(item)">
+            <i class="icon ion-home"></i>
+        </div>
+        <div class="buttons" ng-click="doSomething()">
+            <button class="button">Right Button</button>
+        </div>
+    </ion-footer-bar>
+
 </ion-view>
