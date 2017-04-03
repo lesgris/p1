@@ -7,6 +7,6 @@ angular.module('starter.controllers')
 			userId: 1,
 			itemId: "BIGBURGER",
 			date: "29 janvier 2017",
-			tauxGlucide: "500g" 
+			tauxGlucide: "500g"
 		}];
-    });
+});

@@ -8,7 +8,7 @@
             <input type="text" placeholder="Prénom">
         </ion-item>
         </ion-list>
-        
+
         <p>De quelle quantité de glucides as-tu besoin, selon les repas ?</p>
         <ion-item ng-repeat="(key,protocole) in user.protocole">
         <ion-list>
@@ -20,10 +20,9 @@
            <ion-label class="item item-input">
            <input type="number" placeholder="Glucides lents" ng-value="user.protocole.glucideLent">
            </ion-label>
-            
+
         </ion-list>
         </ion-item>
-        
         <a class="button button-balanced" type="submit" href="/www/templates/bonAppetit.html">Valider</a>
     </ion-content>
 </ion-view>
