@@ -116,6 +116,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.repas', {
+        url: '/repas',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/repas.html',
+            controller: 'RepasCtrl'
+         }
+       }
+      })
       ;
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/app/users');
