@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller('InfosCtrl', function($scope, $stateParams, $rootScope) {
+angular.module('starter.controllers').controller('infosCtrl', function($scope, $stateParams, $rootScope) {
     $scope.Infos={};
     if (!$rootScope.userId || $rootScope.userId === -1) {
         console.log("WELELE");
