@@ -1,7 +1,7 @@
 angular.module('starter.controllers').controller('InfosCtrl', function($scope, $stateParams, $rootScope) {
     $scope.Infos={};
     $scope.users = $rootScope.data.users;
-    $scope.repas = [{"name":"Petit déjeuner"}];
+    $scope.protocoles = $rootScope.data.protocole;
 });
 
 /*
