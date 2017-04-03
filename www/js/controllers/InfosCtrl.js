@@ -1,4 +1,3 @@
-
 angular.module('starter.controllers').controller('InfosCtrl', function ($scope, $stateParams, $rootScope) {
 	$scope.Infos = {};
 	if (!$rootScope.userId || $rootScope.userId === -1) {
