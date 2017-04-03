@@ -3,21 +3,23 @@
 		{
 			"id": "1",
 			"prenom": "Louis",
-			"petitDejeuner": {
-				"glucideLent": 6,
-				"glucideRapide": 9
-			},
-			"dejeuner": {
-				"glucideLent": 7,
-				"glucideRapide": 8
-			},
-			"gouter": {
-				"glucideLent": 8,
-				"glucideRapide": 7
-			},
-			"diner": {
-				"glucideLent": 4,
-				"glucideRapide": 6
+			"protocole": {
+				"petitDejeuner": {
+					"glucideLent": 6,
+					"glucideRapide": 9
+				},
+				"dejeuner": {
+					"glucideLent": 7,
+					"glucideRapide": 8
+				},
+				"gouter": {
+					"glucideLent": 8,
+					"glucideRapide": 7
+				},
+				"diner": {
+					"glucideLent": 4,
+					"glucideRapide": 6
+				}
 			},
 			"avatarId": "",
 			"persoId": ""
@@ -25,21 +27,23 @@
 		{
 			"id": "2",
 			"prenom": "Arthur",
-			"petitDejeuner": {
-				"glucideLent": 6,
-				"glucideRapide": 7
-			},
-			"dejeuner": {
-				"glucideLent": 7,
-				"glucideRapide": 8
-			},
-			"gouter": {
-				"glucideLent": 9,
-				"glucideRapide": 7
-			},
-			"diner": {
-				"glucideLent": 4,
-				"glucideRapide": 4
+			"protocole": {
+				"petitDejeuner": {
+					"glucideLent": 6,
+					"glucideRapide": 9
+				},
+				"dejeuner": {
+					"glucideLent": 7,
+					"glucideRapide": 8
+				},
+				"gouter": {
+					"glucideLent": 8,
+					"glucideRapide": 7
+				},
+				"diner": {
+					"glucideLent": 4,
+					"glucideRapide": 6
+				}
 			},
 			"avatarId": "",
 			"persoId": ""
@@ -47,21 +51,23 @@
 		{
 			"id": "3",
 			"prenom": "Perceval",
-			"petitDejeuner": {
-				"glucideLent": 6,
-				"glucideRapide": 9
-			},
-			"dejeuner": {
-				"glucideLent": 7,
-				"glucideRapide": 8
-			},
-			"gouter": {
-				"glucideLent": 4,
-				"glucideRapide": 7
-			},
-			"diner": {
-				"glucideLent": 4,
-				"glucideRapide": 8
+			"protocole": {
+				"petitDejeuner": {
+					"glucideLent": 6,
+					"glucideRapide": 9
+				},
+				"dejeuner": {
+					"glucideLent": 7,
+					"glucideRapide": 8
+				},
+				"gouter": {
+					"glucideLent": 8,
+					"glucideRapide": 7
+				},
+				"diner": {
+					"glucideLent": 4,
+					"glucideRapide": 6
+				}
 			},
 			"avatarId": "",
 			"persoId": ""
@@ -69,21 +75,23 @@
 		{
 			"id": "4",
 			"prenom": "Karadoc",
-			"petitDejeuner": {
-				"glucideLent": 0,
-				"glucideRapide": 0
-			},
-			"dejeuner": {
-				"glucideLent": 7,
-				"glucideRapide": 8
-			},
-			"gouter": {
-				"glucideLent": 0,
-				"glucideRapide": 7
-			},
-			"diner": {
-				"glucideLent": 4,
-				"glucideRapide": 0
+			"protocole": {
+				"petitDejeuner": {
+					"glucideLent": 6,
+					"glucideRapide": 9
+				},
+				"dejeuner": {
+					"glucideLent": 7,
+					"glucideRapide": 8
+				},
+				"gouter": {
+					"glucideLent": 8,
+					"glucideRapide": 7
+				},
+				"diner": {
+					"glucideLent": 4,
+					"glucideRapide": 6
+				}
 			},
 			"avatarId": "",
 			"persoId": ""
