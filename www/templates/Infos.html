@@ -1,5 +1,5 @@
 
-<ion-view view-title="Infos">
+<ion-view view-title="infos">
     <ion-content>
         <h2>Entre donc ces informations !</h2>
         <h3>Comment t'appelles-tu ?</h3>
@@ -10,20 +10,20 @@
         </ion-list>
         
         <p>De quelle quantité de glucides as-tu besoin, selon les repas ?</p>
-        <ion-item ng-repeat="repa in repas" href="#/app/Infos">
+        <ion-item ng-repeat="(key,protocole) in user.protocole">
         <ion-list>
-            <p>{{repa.name}}</p>
+            <p>{{key}}</p>
            <ion-label class="item item-input">
-           <input type="number" placeholder="Glucides rapides" ng-value="users.petitDejeuner.glucideRapide">
+           <input type="number" placeholder="Glucides rapides" ng-value="user.protocole.glucideRapide">
            </ion-label>
 
            <ion-label class="item item-input">
-           <input type="number" placeholder="Glucides lents" ng-value="users.petitDejeuner.glucideLent">
+           <input type="number" placeholder="Glucides lents" ng-value="user.protocole.glucideLent">
            </ion-label>
             
         </ion-list>
         </ion-item>
         
-        <button class="button button-balanced" type="submit">Valider</button>
+        <a class="button button-balanced" type="submit" href="/www/templates/bonAppetit.html">Valider</a>
     </ion-content>
 </ion-view>

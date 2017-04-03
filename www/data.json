@@ -4,19 +4,19 @@
 			"id": "1",
 			"prenom": "Louis",
 			"protocole": {
-				"petitDejeuner": {
+				"Petit Dejeuner": {
 					"glucideLent": 6,
 					"glucideRapide": 9
 				},
-				"dejeuner": {
+				"Dejeuner": {
 					"glucideLent": 7,
 					"glucideRapide": 8
 				},
-				"gouter": {
+				"Gouter": {
 					"glucideLent": 8,
 					"glucideRapide": 7
 				},
-				"diner": {
+				"Diner": {
 					"glucideLent": 4,
 					"glucideRapide": 6
 				}
@@ -28,19 +28,19 @@
 			"id": "2",
 			"prenom": "Arthur",
 			"protocole": {
-				"petitDejeuner": {
+				"Petit Dejeuner": {
 					"glucideLent": 6,
 					"glucideRapide": 9
 				},
-				"dejeuner": {
+				"Dejeuner": {
 					"glucideLent": 7,
 					"glucideRapide": 8
 				},
-				"gouter": {
+				"Gouter": {
 					"glucideLent": 8,
 					"glucideRapide": 7
 				},
-				"diner": {
+				"Diner": {
 					"glucideLent": 4,
 					"glucideRapide": 6
 				}
@@ -52,19 +52,19 @@
 			"id": "3",
 			"prenom": "Perceval",
 			"protocole": {
-				"petitDejeuner": {
+				"Petit Dejeuner": {
 					"glucideLent": 6,
 					"glucideRapide": 9
 				},
-				"dejeuner": {
+				"Dejeuner": {
 					"glucideLent": 7,
 					"glucideRapide": 8
 				},
-				"gouter": {
+				"Gouter": {
 					"glucideLent": 8,
 					"glucideRapide": 7
 				},
-				"diner": {
+				"Diner": {
 					"glucideLent": 4,
 					"glucideRapide": 6
 				}
@@ -76,19 +76,19 @@
 			"id": "4",
 			"prenom": "Karadoc",
 			"protocole": {
-				"petitDejeuner": {
+				"Petit Dejeuner": {
 					"glucideLent": 6,
 					"glucideRapide": 9
 				},
-				"dejeuner": {
+				"Dejeuner": {
 					"glucideLent": 7,
 					"glucideRapide": 8
 				},
-				"gouter": {
+				"Gouter": {
 					"glucideLent": 8,
 					"glucideRapide": 7
 				},
-				"diner": {
+				"Diner": {
 					"glucideLent": 4,
 					"glucideRapide": 6
 				}

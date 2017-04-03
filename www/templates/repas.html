@@ -1,6 +1,14 @@
   <ion-view view-title="Repas">
   <ion-content>
     <h1 class="text-center">Quel type de repas?</h1>
-    <button class="button button-block button-positive" type="submit" ng-repeat="repa in repas" href="#/app/fastfood">{{repa.name}}</button>
-   </ion-content>
+      <p>{{protocole}}</p>
+    <ion-list>
+    	<ion-item ng-repeat="(key,protocole) in user.protocole">
+    		
+    	</ion-item>
+    </ion-list>
+    <form action="" method="">
+    	<button class="button button-block button-positive" type="submit" ng-repeat="(key,protocole) in user.protocole" ui-sref="#" ng-if="user.protocole.glucidelent == '' && user.protocole.gluciderapide == ''">{{user.protocole}}</button>
+    </form>
+  </ion-content>
 </ion-view>
