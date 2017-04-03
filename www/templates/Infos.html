@@ -2,6 +2,10 @@
 <ion-view view-title="Infos">
     <ion-content>
         <h2>Entre donc ces informations !</h2>
+        <h3>Comment t'appelles-tu ?</h3>
+        <ion-label class="item tem-input"></ion-label>
+        <ion input type="text" ng-value="users.prenom">Prénom</ion>
+        
         <p>De quelle quantité de glucides as-tu besoin, selon les repas ?</p>
         <ion-item ng-repeat="user in users" href="#/app/Infos">
         <ion-list>
