@@ -60,11 +60,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       })
 
       .state('app.infos', {
-        url: '/Infos',
+        url: '/infos',
         views: {
           'menuContent': {
             templateUrl: 'templates/infos.html',
-            controller: 'infosCtrl'
+            controller: 'InfosCtrl'
           }
         }
       })
