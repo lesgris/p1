@@ -5,6 +5,6 @@ angular.module('starter.controllers')
     $scope.users = $rootScope.data.users;
     $scope.test = function (ma) {
       alert(ma);
-      $state.go('app.Infos');
+      $state.go('app.infos');
     };
   });
