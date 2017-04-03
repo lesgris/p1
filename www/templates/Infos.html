@@ -10,7 +10,7 @@
         </ion-list>
         
         <p>De quelle quantité de glucides as-tu besoin, selon les repas ?</p>
-        <ion-item ng-repeat="(key,protocole) in user.protocole" href="#/app/Infos">
+        <ion-item ng-repeat="(key,protocole) in user.protocole">
         <ion-list>
             <p>{{key}}</p>
            <ion-label class="item item-input">
@@ -24,6 +24,6 @@
         </ion-list>
         </ion-item>
         
-        <button class="button button-balanced" type="submit">Valider</button>
+        <a class="button button-balanced" type="submit" href="/www/templates/bonAppetit.html">Valider</a>
     </ion-content>
 </ion-view>
