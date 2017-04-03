@@ -2,7 +2,7 @@
   <ion-content>
     <h1 class="text-center">Quel type de repas?</h1>
     <form action="" method="">
-    	<button class="button button-block button-positive" type="submit" ng-repeat="(key,repa) in repas" ui-sref="#" ng-if="{{repa.GlucideRapide}} == NULL && {{repa.GlucideLent}} == NULL">{{repa.name}}</button>
+    	<button class="button button-block button-positive" type="submit" ng-repeat="(key,repa) in repas" ui-sref="#" ng-if="{{repa.gluciderapide}} == not_NULL && {{repa.glucidelent}} not_NULL ">{{repa.name}}</button>
     </form>
   </ion-content>
 </ion-view>
