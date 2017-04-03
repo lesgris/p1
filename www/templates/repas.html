@@ -1,6 +1,8 @@
   <ion-view view-title="Repas">
   <ion-content>
     <h1 class="text-center">Quel type de repas?</h1>
-    <button class="button button-block button-positive" type="submit" ng-repeat="repa in repas" href="#/app/fastfood">{{repa.name}}</button>
-   </ion-content>
+    <form action="" method="">
+    	<button class="button button-block button-positive" type="submit" ng-repeat="(key,repa) in repas" ui-sref="#" ng-if="{{repa.GlucideRapide}} == NULL && {{repa.GlucideLent}} == NULL">{{repa.name}}</button>
+    </form>
+  </ion-content>
 </ion-view>
