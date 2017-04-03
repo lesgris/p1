@@ -1,12 +1,14 @@
 /* Empty. Add your own CSS if you like */
-footer{
-	position:fixed;
+/*footer{
+	position:relative;
 	bottom:0;
 	width:100%;
 	height:50px;
+}*/
+h1
+{	
+	text-align: center;
 }
 img#logo{
 	position:fixed;
-	/*width:100%;
-	height:100%;*/
 }
