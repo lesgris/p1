@@ -1,0 +1,31 @@
+<ion-view view-title="make your plate">
+    <ion-content>
+
+
+        <div class="row" ng-repeat="item in items" ng-if="$index % 2 === 0">
+            <div class="col" ng-if="$index < items.length">
+                <div class="list card">
+                    <div class="item item-text-wrap">
+                        <h2>{{items[$index].nom}}</h2>
+                    </div>
+                    <div class="item item-image">
+                        <img ng-src="{{items[$index].photoLink}}">
+                    </div>
+                </div>
+            </div>
+            <div class="col" ng-if="$index + 1 < items.length">
+                <div class="list card">
+                    <div class="item item-text-wrap">
+                        <h2>{{items[$index + 1].nom}}</h2>
+                    </div>
+                    <div class="item item-body">
+                        <img class="full-image" ng-src="{{items[$index + 1].photoLink}}">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </ion-content>
+</ion-view>

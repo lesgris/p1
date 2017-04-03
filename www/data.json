@@ -4,20 +4,86 @@
 			"id": "1",
 			"prenom": "Louis",
 			"petitDejeuner": {
-				"glucideLent": "",
-				"glucideRapide": ""
+				"glucideLent": 6,
+				"glucideRapide": 9
 			},
 			"dejeuner": {
-				"glucideLent": "",
-				"glucideRapide": ""
+				"glucideLent": 7,
+				"glucideRapide": 8
 			},
 			"gouter": {
-				"glucideLent": "",
-				"glucideRapide": ""
+				"glucideLent": 8,
+				"glucideRapide": 7
 			},
 			"diner": {
-				"glucideLent": "",
-				"glucideRapide": ""
+				"glucideLent": 4,
+				"glucideRapide": 6
+			},
+			"avatarId": "",
+			"persoId": ""
+		},
+		{
+			"id": "2",
+			"prenom": "Arthur",
+			"petitDejeuner": {
+				"glucideLent": 6,
+				"glucideRapide": 7
+			},
+			"dejeuner": {
+				"glucideLent": 7,
+				"glucideRapide": 8
+			},
+			"gouter": {
+				"glucideLent": 9,
+				"glucideRapide": 7
+			},
+			"diner": {
+				"glucideLent": 4,
+				"glucideRapide": 4
+			},
+			"avatarId": "",
+			"persoId": ""
+		},
+		{
+			"id": "3",
+			"prenom": "Perceval",
+			"petitDejeuner": {
+				"glucideLent": 6,
+				"glucideRapide": 9
+			},
+			"dejeuner": {
+				"glucideLent": 7,
+				"glucideRapide": 8
+			},
+			"gouter": {
+				"glucideLent": 4,
+				"glucideRapide": 7
+			},
+			"diner": {
+				"glucideLent": 4,
+				"glucideRapide": 8
+			},
+			"avatarId": "",
+			"persoId": ""
+		},
+		{
+			"id": "4",
+			"prenom": "Karadoc",
+			"petitDejeuner": {
+				"glucideLent": 0,
+				"glucideRapide": 0
+			},
+			"dejeuner": {
+				"glucideLent": 7,
+				"glucideRapide": 8
+			},
+			"gouter": {
+				"glucideLent": 0,
+				"glucideRapide": 7
+			},
+			"diner": {
+				"glucideLent": 4,
+				"glucideRapide": 0
 			},
 			"avatarId": "",
 			"persoId": ""
@@ -54,13 +120,31 @@
 	],
 	"items": [
 		{
-			"id": "",
-			"nom": "",
-			"type": "",
+			"id": "1",
+			"nom": "BigMac",
+			"type": "1",
 			"glucideLent": "",
 			"glucideRapide": "",
-			"restoId": "",
-			"photoLink": ""
+			"restoId": "1",
+			"photoLink": "./img/items/bigmac.png"
+		},
+		{
+			"id": "2",
+			"nom": "BigMac2",
+			"type": "1",
+			"glucideLent": "",
+			"glucideRapide": "",
+			"restoId": "1",
+			"photoLink": "./img/items/bigmac.png"
+		},
+		{
+			"id": "3",
+			"nom": "BigMac3",
+			"type": "1",
+			"glucideLent": "",
+			"glucideRapide": "",
+			"restoId": "1",
+			"photoLink": "./img/items/bigmac.png"
 		}
 	]
 }
