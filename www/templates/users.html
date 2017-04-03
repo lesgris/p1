@@ -2,12 +2,12 @@
   <ion-content>
     <h1>C'est qui ??</h1>
     <ion-list>
-      <ion-item ng-repeat="user in users" href="#/app/Infos">
+      <ion-item ng-repeat="user in users" ui-sref="app.repas">
         {{user.prenom}}
       </ion-item>
     </ion-list>
-    <label class="item">
-      <button class="button button-block button-royal" type="submit">Je suis nouveau !</button>
+    <label class="item" >
+      <ion-button class="button button-block button-royal" ng-click="uisref("app.infos");" >Je suis nouveau !</ion-button>
     </label>
   </ion-content>
 </ion-view>
